@@ -1,0 +1,103 @@
+
+body{
+    /*background:rgb(228, 230, 218);*/
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color:rgb(90, 104, 104);
+}
+header{
+    background: rgb(214, 110, 110);
+    color: rgb(19, 61, 135);
+    text-align: center;
+    padding: 10px;  
+}
+#port{
+    font-size: 30px;
+    color: rgb(23, 48, 188);
+}
+#ar{
+    color: #007bff;
+}
+ #ab{
+    font-size: 40px;
+    text-shadow: 2px 2px red;
+    text-align: center;
+} 
+#im{
+    background-color: #e9c3c3;
+    border-radius: 50%;
+    font-size: 10px;
+}
+#rm{
+    font-style: oblique;
+    color: #67a2e1;
+}
+nav ul li{
+    margin: 20px; 
+    text-align: center;
+    display: inline;
+
+}
+nav ul {
+    background-color: rgb(196, 222, 142);
+    list-style: none;
+    padding: 1;
+    font-size: 20px;
+}
+.icon-container{
+    display: flex;
+    gap:20px;
+    cursor: pointer;
+    background-color: rgb(67, 89, 92);
+    padding: 50px;
+    margin: 1px;
+}
+.icon {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #010102;
+    padding: 40px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+#con{
+    display: flex;
+    background-color: rgb(200, 192, 182);
+}
+.th{
+    background-color: #8e789d;
+}
+.form-container {
+    background:rgb (90, 104, 104);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+    button {
+        padding: 10px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background: #0056b3;
+    }
+    .foot{
+        text-align: center;
+        background-color: rgb(87, 72, 72);
+    }
